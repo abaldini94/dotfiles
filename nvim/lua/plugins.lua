@@ -6,7 +6,7 @@ local plugins = {
 	require("plugins.telescope"),
 	require("plugins.autoformat"),
 	require("plugins.autocompletion"),
-	require("plugins.colorschemes.github"),
+	require("plugins.colorschemes.onedark"),
 	require("plugins.mini"),
 	require("plugins.treesitter"),
 	require("plugins.neotree"),

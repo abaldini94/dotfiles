@@ -1,2 +1,4 @@
-zsh/*
-!zsh/.zshrc
+*
+!/nvim/
+!/alacritty/
+!/zsh/

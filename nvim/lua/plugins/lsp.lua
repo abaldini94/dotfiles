@@ -91,6 +91,33 @@ return {
 						},
 					},
 				},
+				rust_analyzer = {
+					settings = {
+						["rust-analyzer"] = {
+							cargo = {
+								allFeatures = true,
+								loadOutDirsFromCheck = true,
+								buildScripts = {
+									enable = true,
+								},
+							},
+							checkOnSave = {
+								allFeatures = true,
+								command = "clippy",
+								extraArgs = { "--no-deps" },
+							},
+							procMacro = {
+								enable = true,
+								ignored = {
+									leptos_macro = {
+										"component",
+										"server",
+									},
+								},
+							},
+						},
+					},
+				},
 				lua_ls = {
 					settings = {
 						Lua = {
@@ -108,6 +135,7 @@ return {
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
 				"ruff",
+				"rustfmt",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

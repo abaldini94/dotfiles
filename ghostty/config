@@ -1,0 +1,19 @@
+# --- Theme & Font ---
+font-family = "JetBrainsMono Nerd Font"
+font-feature = "liga"
+font-size = 13
+theme = Github Dark Colorblind
+
+# --- Window ---
+window-padding-x = 10
+window-padding-y = 10
+window-decoration = true
+background-opacity = 0.95
+background-blur-radius = 20
+
+# --- Cursor ---
+cursor-style = block
+
+# --- Behaviour ---
+confirm-close-surface = false
+copy-on-select = true

@@ -1,2 +1,8 @@
-zsh/*
+*
+!zsh/
 !zsh/.zshrc
+!zsh/theme.omp.json
+!alacritty/
+!alacritty/**
+!nvim
+!nvim/**

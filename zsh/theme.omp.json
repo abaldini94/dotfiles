@@ -28,6 +28,22 @@
           "properties": {
             "fetch_status": true
           }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "template": " \uE235 {{ if .Venv }}({{ .Venv }}){{ end }} "
+        },
+        {
+          "type": "go",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#111111",
+          "background": "#00ADD8", // Il classico azzurro Go
+          "template": " \uE627 {{ .Full }} "
         }
       ]
     },

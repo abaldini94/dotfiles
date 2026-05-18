@@ -9,8 +9,10 @@ local plugins = {
 	require("plugins.colorschemes.github"),
 	require("plugins.mini"),
 	require("plugins.treesitter"),
-	require("plugins.neotree"),
+	-- require("plugins.neotree"),
 	require("plugins.toggleterm"),
+	require("plugins.flash"),
+	require("plugins.oil"),
 }
 
 local opts = {

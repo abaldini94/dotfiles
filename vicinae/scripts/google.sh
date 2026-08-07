@@ -6,4 +6,8 @@
 # @vicinae.icon 🔍
 # @vicinae.argument1 { "type": "text", "placeholder": "search", "percentEncoded": true }
 
-xdg-open "https://www.google.com/search?q=$1"
+if [[ "$OSTYPE" == darwin* ]]; then
+     open "https://www.google.com/search?q=$1"
+   else
+     xdg-open "https://www.google.com/search?q=$1"
+   fi

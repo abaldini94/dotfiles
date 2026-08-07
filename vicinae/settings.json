@@ -14,7 +14,7 @@
       "scripts": {
          "preferences": {
             "customDirs": [
-               "/home/andrea/.config/vicinae/scripts"
+               "/Users/andrea/.config/vicinae/scripts/"
             ]
          }
       }
